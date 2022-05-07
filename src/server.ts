@@ -5,10 +5,10 @@ const app = express()
 
 app.use(express.json())
 
-app.post('/feedbacks', (req, res) => {
+app.post('/feedbacks', async (req, res) => {
   const { type, comment, screenshot } = req.body
 
-  prisma.feedback.create({
+  const feedback = await prisma.feedback.create({
     data: {
       type,
       comment,
@@ -16,8 +16,9 @@ app.post('/feedbacks', (req, res) => {
     }
   })
 
-  return res.send('Hello World')
+  return res.status(201).json({ data: feedback })
 })
+
 app.listen(3333, () => {
   console.log('HTTP server running!')
 })
