@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1651962136675" clover="3.2.0">
-  <project timestamp="1651962136675" name="All files">
-    <metrics statements="47" coveredstatements="47" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2" elements="56" coveredelements="56" complexity="0" loc="47" ncloc="47" packages="1" files="1" classes="1"/>
+<coverage generated="1651962975866" clover="3.2.0">
+  <project timestamp="1651962975866" name="All files">
+    <metrics statements="39" coveredstatements="39" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2" elements="48" coveredelements="48" complexity="0" loc="39" ncloc="39" packages="1" files="1" classes="1"/>
     <file name="submit-feedback-use-case.ts" path="/home/lilian/Ignite/nlw/nlw-return/server/src/use-cases/submit-feedback-use-case.ts">
-      <metrics statements="47" coveredstatements="47" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
+      <metrics statements="39" coveredstatements="39" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
@@ -43,14 +43,6 @@
       <line num="37" count="1" type="stmt"/>
       <line num="38" count="1" type="stmt"/>
       <line num="39" count="1" type="stmt"/>
-      <line num="40" count="1" type="stmt"/>
-      <line num="41" count="1" type="stmt"/>
-      <line num="42" count="1" type="stmt"/>
-      <line num="43" count="1" type="stmt"/>
-      <line num="44" count="1" type="stmt"/>
-      <line num="45" count="1" type="stmt"/>
-      <line num="46" count="1" type="stmt"/>
-      <line num="47" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
